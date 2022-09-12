@@ -1,0 +1,18 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: 7ba53987-faa2-4328-95ac-e8957605116e
+  loglevel: INFO
+  name: test_csm
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - exec: hostname
+    keepgoing: false
+    strategy: node-first
+  uuid: 7ba53987-faa2-4328-95ac-e8957605116e
+
